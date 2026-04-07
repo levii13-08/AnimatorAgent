@@ -1,0 +1,22 @@
+# Core
+python-dotenv>=1.0.1
+pydantic>=2.6.0
+typing-extensions>=4.0.0
+
+# LLM (Gemini)
+google-genai>=0.5.0
+
+# Agent framework
+langgraph>=0.2.0
+
+# Image & Video
+moviepy>=1.0.3
+pillow>=10.3.0
+imageio
+
+# Diffusion / ML
+torch>=2.1.0
+diffusers>=0.27.0
+transformers>=4.38.0
+accelerate>=0.27.0
+safetensors
