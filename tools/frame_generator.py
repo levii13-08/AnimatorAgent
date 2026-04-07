@@ -12,9 +12,10 @@ pipe = StableDiffusionPipeline.from_pretrained(
     torch_dtype=torch.float16
 )
 
+pipe = pipe.to("cuda")
 pipe.enable_attention_slicing()
 pipe.enable_vae_slicing()
-pipe.enable_model_cpu_offload()
+
 
 
 def frame_generation_tool(
